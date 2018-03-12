@@ -1,9 +1,8 @@
-#Movie class that stores movies informations
-import media
 
 # render the movie webpage
 import fresh_tomatoes
-
+# Movie class that stores movies informations
+import media
 
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
@@ -57,5 +56,5 @@ interstellar = media.Movie("Interstellar",
 movies = [avatar, toy_story, hitch, school_of_rock, ratatouille, midnight_in_paris, hunger_games, inception,
           interstellar]
 
-#use movies list render webpage          
+# use movies list render webpage
 fresh_tomatoes.open_movies_page(movies)

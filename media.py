@@ -14,6 +14,6 @@ class Movie():
         self.poster_image_url = poster_image
         self.trailer_url = trailer_youtube
         self.movie_director = movie_director
-
+      """open a window with movie video"""    
       def show_trailer(self):
         webbrowser.open(self.trailer_url)
